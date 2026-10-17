@@ -1,0 +1,17 @@
+# Local targets, debugger databases, and raw captures
+artifacts/
+
+# Generated builds
+build/
+target/
+__pycache__/
+*.pyc
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
