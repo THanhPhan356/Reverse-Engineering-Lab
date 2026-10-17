@@ -1,6 +1,6 @@
-# Bài tập
+# Exercises
 
-Đặt mỗi bài trong một thư mục riêng với số thứ tự, ví dụ `001-terrible-token`.
-Dùng [mẫu ghi chép](../exercise-template.md) cho từng bài.
+Keep each exercise in a separate numbered directory, such as `001-terrible-token`.
+Use the [exercise template](../exercise-template.md) for each exercise.
 
-Chưa có bài nào được thực hiện.
+No exercises have been completed yet.

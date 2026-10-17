@@ -1,34 +1,34 @@
 # Reverse Engineering Lab
 
-Repo cá nhân để luyện phân tích binary, khôi phục logic và viết lại chức năng bằng C/C++ hoặc Rust.
+A personal lab for practicing binary analysis, recovering program logic, and reimplementing functionality in C, C++, or Rust.
 
-## Bắt đầu
+## Getting Started
 
-Nguồn bài tập: [pwn.college — Reverse Engineering](https://pwn.college/program-security/reverse-engineering/).
-Bắt đầu với **Terrible Token (Easy)**, sau đó tăng dần độ khó.
+Course and exercises: [pwn.college — Reverse Engineering](https://pwn.college/program-security/reverse-engineering/).
+Start with **Terrible Token (Easy)**, then work through progressively harder challenges.
 
-1. Tạo thư mục bài tập, ví dụ `exercises/001-terrible-token/`.
-2. Sao chép [mẫu ghi chép](exercise-template.md) thành `README.md` trong thư mục đó.
-3. Ghi lại quan sát, giả thuyết và bằng chứng trước khi đọc lời giải.
-4. Lưu code tái triển khai và dữ liệu kiểm chứng cạnh ghi chép của bài.
+1. Create an exercise directory, such as `exercises/001-terrible-token/`.
+2. Copy the [exercise template](exercise-template.md) into that directory as `README.md`.
+3. Record observations, hypotheses, and evidence before reading a solution.
+4. Keep your reimplementation and validation data alongside the exercise notes.
 
-## Cấu trúc mỗi bài
+## Exercise Structure
 
 ```text
-exercises/001-ten-bai/
-├── README.md        # Phân tích và kết quả
-├── src/             # Code tự viết để tái triển khai hoặc hỗ trợ phân tích
-├── tests/           # Dữ liệu và cách đối chiếu hành vi
-└── artifacts/       # Binary và dữ liệu cục bộ, không đưa vào Git
+exercises/001-exercise-name/
+├── README.md        # Analysis and results
+├── src/             # Original reimplementation or analysis helpers
+├── tests/           # Test data and behavioral comparisons
+└── artifacts/       # Local binaries and raw data; excluded from Git
 ```
 
-Chỉ tạo các thư mục con khi cần dùng.
+Create subdirectories only when needed.
 
-## Tiêu chí hoàn thành
+## Completion Criteria
 
-- Giải thích được đầu vào, đầu ra và luồng xử lý chính.
-- Phân biệt điều đã xác nhận với giả thuyết còn thiếu bằng chứng.
-- Kiểm chứng kết luận bằng debugger, dữ liệu thử hoặc bản tái triển khai.
-- Nếu tối ưu: đo độ đúng trước, đo tốc độ sau và ghi điều kiện benchmark.
+- Explain the inputs, outputs, and main control flow.
+- Distinguish confirmed findings from hypotheses that still need evidence.
+- Validate conclusions using a debugger, test inputs, or a reimplementation.
+- For optimization work, verify correctness before measuring performance and document the benchmark conditions.
 
-Binary của bài tập được lưu cục bộ trong `artifacts/`; repo lưu ghi chép và code tự viết.
+Exercise binaries stay in local `artifacts/` directories; this repository contains notes and original code.

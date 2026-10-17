@@ -1,31 +1,31 @@
-# Tên bài
+# Exercise Name
 
-## Mục tiêu và nguồn
+## Objective and Source
 
-- Link bài / phiên bản target:
-- Kiến trúc và định dạng binary:
-- SHA-256 của binary:
-- Công cụ đã dùng:
-- Trạng thái: chưa bắt đầu / đang làm / hoàn thành
+- Exercise link / target version:
+- Binary architecture and format:
+- Binary SHA-256:
+- Tools used:
+- Status: not started / in progress / completed
 
-## Hành vi quan sát được
+## Observed Behavior
 
-Đầu vào, đầu ra và ví dụ chạy.
+Inputs, outputs, and example runs.
 
-## Phân tích
+## Analysis
 
-Hàm quan trọng, điều kiện rẽ nhánh, vòng lặp và dữ liệu liên quan.
-Ghi địa chỉ hàm hoặc vị trí bằng chứng; đánh dấu giả thuyết chưa kiểm chứng.
+Important functions, branches, loops, and relevant data.
+Record function addresses or evidence locations, and label unverified hypotheses.
 
-## Logic khôi phục
+## Recovered Logic
 
-Mã giả hoặc mô tả thuật toán bằng lời của mình.
+Pseudocode or an explanation of the algorithm in your own words.
 
-## Kiểm chứng
+## Validation
 
-Cách chạy lại; kết quả mong đợi và thực tế; trường hợp biên đã thử.
-Nếu có bản tái triển khai, ghi cách build và so sánh với binary.
+Reproduction steps, expected and actual results, and edge cases tested.
+If there is a reimplementation, document how to build it and compare it with the binary.
 
-## Điều học được và phần còn thiếu
+## Lessons Learned and Open Questions
 
-Kỹ thuật mới, giả thuyết đã bác bỏ và giới hạn chưa kiểm tra.
+New techniques, rejected hypotheses, and limitations that remain untested.
