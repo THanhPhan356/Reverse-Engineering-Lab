@@ -1,8 +1,12 @@
 # Exercise Name
 
+Use this template only for original, standalone demonstrations outside course challenges. Do not include challenge solutions or challenge-specific analysis.
+
 ## Objective and Source
 
-- Exercise link / target version:
+- Concept to demonstrate:
+- Public learning references:
+- Original demo source / target version:
 - Binary architecture and format:
 - Binary SHA-256:
 - Tools used:
