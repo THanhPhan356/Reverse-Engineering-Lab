@@ -2,7 +2,7 @@
 
 A personal notebook for learning low-level computing and building a foundation for reverse engineering: reading machine code, questioning assumptions, and gradually making sense of what a program does beneath its source code.
 
-I plan to work through [pwn.college's Computing 101 curriculum](https://pwn.college/computing-101/). Its focus on machine code, memory, the stack, and control flow aligns more closely with my university microprocessor course and provides a foundation for later reverse engineering work. This repository is where I will share the knowledge, practical experience, and lessons I take away from that journey. The aim is to leave behind something useful for another learner while preserving the opportunity to discover each challenge for themselves.
+I plan to work through both [Computing 101](https://pwn.college/computing-101/) and [Reverse Engineering](https://pwn.college/program-security/reverse-engineering/) on pwn.college. Computing 101 will strengthen the foundations in machine code, memory, the stack, and control flow that connect with my university microprocessor course. I will then build on that foundation through Reverse Engineering, learning to analyze binaries and recover program logic. This repository is where I will share the knowledge, practical experience, and lessons I take away from that journey. The aim is to leave behind something useful for another learner while preserving the opportunity to discover each challenge for themselves.
 
 ## What I Will Share
 
